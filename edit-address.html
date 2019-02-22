@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <title> حراج </title>
+</head>
+
+<body class="internal-page">
+
+
+    <!--  MAIN HEADER -->
+    <header class="site-header">
+
+        <div class="header-nav">
+            <div class="container-fluid">
+                <div class="logo-box">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="english" class="img-fluid" width="100%">
+                    </a>
+                </div>
+                <ul>
+                    <li class="nav-item user-li">
+                        <a class="nav-link" href="profile.html">
+                            <i class="icofont">user</i>
+                            <span> Hossam </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="messages.html">
+                            <i class="icofont">envelope</i>
+                            <span> الرسائل </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notification.html">
+                            <i class="icofont">alarm</i>
+                            <span> الاشعارات </span>
+                            <legand> 3 </legand>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favourite.html">
+                            <i class="icofont">heart</i>
+                            <span> المفضلة </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feed.html">
+                            <i class="icofont">rss_feed</i>
+                            <span> المتابعة </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- CONTENT  -->
+    <div class="internal-wrapper">
+        <div class="container">
+            <div class="content">
+                <div class="edit-adress">
+                     <h4> تحديد موقع السلعة </h4>  
+                     <form action="">
+                        <select class="select-2">
+                            <option value="0" selected>اختر المدينة</option>
+                            <option value="1">مدينة القريات</option>
+                            <option value="2">مدينة سكاكا</option>
+                            <option value="3">مدينة دومة الجندل</option>
+                        </select>
+
+                        <select class="select-2">
+                            <option value="0"  selected>اختر المنطقة</option>
+                            <option value="1">الرياض</option>
+                            <option value="2">مكة المكرمة</option>
+                            <option value="3">الشرقية</option>
+                            <option value="4">القصيم</option>
+                            <option value="5">الحدود الشمالية</option>
+                            <option value="6">الجوف</option>
+                            <option value="7">تبوك</option>
+                            <option value="8">حائل</option>
+                            <option value="9">المدينة</option>
+                            <option value="10">عسير</option>
+                            <option value="11">الباحة</option>
+                            <option value="12">جازان</option>
+                            <option value="13">نجران</option>
+                        </select>
+
+                        <select class="select-2">
+                            <option value="0" selected>اختر الحي</option>
+                            <option value="1">حي التحلية</option>
+                            <option value="2">حي الخالدية</option>
+                            <option value="3">حي الدفاع</option>
+                            <option value="4">حي السديرية</option>
+                            <option value="5">حي الشفا</option>
+                            <option value="6">حي الصناعية</option>
+                            <option value="7">حي العليا</option>
+                            <option value="8">حي الغزالي</option>
+                            <option value="9">حي الفيصلية</option>
+                            <option value="10">حي المحمدية</option>
+                            <option value="11">حي المروج</option>
+                            <option value="12">حي المطار</option>
+                            <option value="13">حي الملك فهد</option>
+                            <option value="14">حي النسيم</option>
+                            <option value="15">حي حصيدة</option>
+                        </select>
+
+
+                        <p>  مسجد بلال، المنصورة (قسم )، المنصورة، الدقهلية، مصر </p>
+                        <div class="map" id="map"></div>
+                        <p> حرك المؤشر الى مكان العرض </p>
+
+                        <p> <label> ملاحظة </label> موقعك الدقيق لايظهر في إعلانك. يظهر فقط أسم الحي و المدينة. </p>
+                        <button class="btn btn-white" type="submit"> تعديل </button>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER  -->
+    <div class="footer">
+        <div class="container">
+            <div class="ico-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="footer-drop-down">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <a href="commission.html">
+                            <i class="icofont">square</i> حساب عمولة الموقع </a>
+                        <a href="special-ad.html">
+                            <i class="icofont">square</i> الإعلانات المميزة </a>
+                        <a href="member.html">
+                            <i class="icofont">square</i> عضوية معارض السيارات و مكاتب العقار </a>
+                        <a href="repeated-ads.html">
+                            <i class="icofont">square</i> رسوم الخدمات المكررة </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <a href="rules.html">
+                            <i class="icofont">square</i> معاهدة إستخدام الموقع </a>
+                        <a href="rating.html">
+                            <i class="icofont">square</i> نظام التقييم </a>
+                        <a href="discount.html">
+                            <i class="icofont">square</i> نظام الخصم </a>
+                        <a href="black-list.html">
+                            <i class="icofont">square</i> القائمة السوداء </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <a href="blocked-ads.html">
+                            <i class="icofont">square</i> قائمة السلع والإعلانات الممنوعة </a>
+                        <a href="app.html">
+                            <i class="icofont">square</i> تطبيق حراج </a>
+                        <a href="contact.html">
+                            <i class="icofont">square</i> اتصل بنا </a>
+                        <a href="#">
+                            <i class="icofont">square</i> تسجيل الخروج </a>
+                    </div>
+                </div>
+            </div>
+            <p> مؤسسة موقع حراج للتجارة </p>
+        </div>
+    </div>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/edit.js"></script>
+    
+    <script>
+        var beaches = [
+            ['Matrouh', 31.356888, 27.267245, 1]
+        ];
+
+        function initMap() {
+            var myLatLng = { lat: 31.3568883, lng: 27.2672453 };
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: myLatLng
+            });
+            setMarkers(map);
+        }
+
+        function setMarkers(map) {
+            var image = {
+                url: 'images/map.png',
+                size: new google.maps.Size(50, 82),
+                origin: new google.maps.Point(0, 0),
+                anchor: new google.maps.Point(0, 32)
+            };
+            var shape = {
+                coords: [1, 1, 1, 20, 18, 20, 18, 1],
+                type: 'poly'
+            };
+            for (var i = 0; i < beaches.length; i++) {
+                var beach = beaches[i];
+                var marker = new google.maps.Marker({
+                    position: { lat: beach[1], lng: beach[2] },
+                    map: map,
+                    icon: image,
+                    shape: shape,
+                    title: beach[0],
+                    zIndex: beach[3]
+                });
+            }
+        }
+
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Xz9rMq52xAtXTjm6v_cMeppcxWnm0-M&callback=initMap">
+    </script>
+
+</body>
+    
+</html>
